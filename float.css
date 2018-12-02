@@ -1,0 +1,84 @@
+ html{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("assets/images/circuit.png");
+    background-color: gray;
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+
+.page-wrap {
+    flex: 1 100%;
+}
+
+
+  
+
+
+img.img-thumbnail.profile-pic {
+    width: 200px;
+    height: 200px;
+    margin: .5%; 
+} 
+
+.push {
+    flex: 1 0 auto;
+}
+
+.lead {
+    color: white;
+    
+}
+
+.content-box  {
+
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color:gray ;
+    border-radius: .3rem;
+    border-color: grey;
+    border-style: solid;
+    border-width: .4px;
+  
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.navbar-text.fixed-bottom {
+    padding: 0 auto;
+    color: white;
+    text-align: center;
+    flex: 0;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-right: 
+  }
+
+  .banner {
+      background-color: teal;
+  }
+
+  nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+      margin-bottom: 4%;
+  }
+  footer {
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+    
+}
+
+input.message{
+    height: 150px;
+    width: 50%;
+
+}
